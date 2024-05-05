@@ -20,7 +20,7 @@ def run():
 
     # 输入用户名
     username = driver.find_element(By.ID, "username")
-    username.send_keys("zheyuan.xu@proaimltd.com")
+    username.send_keys("xxx@xxx.com")
     driver.implicitly_wait(5)
 
     # 点击继续，显示密码输入框
@@ -30,7 +30,7 @@ def run():
 
     # 输入密码
     password = driver.find_element(By.ID, "password")
-    password.send_keys("Proaim@2013")
+    password.send_keys("*****")
     driver.implicitly_wait(2)
 
     # 点击登录
